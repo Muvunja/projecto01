@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+*{
+margin: 0;
+padding: 0;
+
+}
+
+#titulo{
+font-family:sans-serif ;
+color: black;
+margin-left: 40%;
+
+}
+
+input, textarea, button {
+border-radius: 5px;
+}
+
+.botao{
+    font-size: 1.5em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: blue;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.botao:hover{
+background: aquamarine;
+box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+text-shadow: none;
+text-justify: auto;
+text-size-adjust: 2em;
+
+}
+
+.pareceres{
+    display: inline-block;
+}
+
+body{
+background-color: #429d7a;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 2%;
+justify-content: center
+
+}
